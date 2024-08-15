@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light-mode">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartão de Visita</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/media-queries.css">
+</head>
+<body>
+    <header>
+        <img src="images/profile.png" alt="Foto de Artur Tinoco com moletom preto e óculos de grau" id="profile">
+        <h1>Artur Guz Tinoco</h1>
+        <p>Front-End Dev / Audio Engineer</p>
+    </header>
+    <main>
+        <div id="switch" onclick="toggleMode()">
+            <button></button>
+            <span></span>
+        </div>
+        <section id="btns">
+            <ul>
+                <li><a href="https://github.com/arturtinoco" target="_blank">Veja meu portfólio!</a></li>
+                <li><a href="https://soundcloud.com/arturguz" target="_blank">Siga-me no Soundcloud</a></li>
+                <li id="long"><a href="https://open.spotify.com/intl-pt/track/6psK4p7Obuf2EKw6SfrctM?si=afc2818d7c4e4c76" target="_blank" class="playContainer" id="playContainer1"><ion-icon name="play-circle-outline" class="playIcon" id="play1"></ion-icon> De Rumo a Qualquer Lugar</a></li>
+                <li><a href="https://open.spotify.com/intl-pt/track/1sWVygNClaSAVtGMn2rTPS?si=6152b1529b32410e" target="_blank" class="playContainer" id="playContainer2"><ion-icon name="play-circle-outline" class="playIcon" id="play2"></ion-icon>ESCUTE JÁ: Vacilei</a></li>
+                <li><a href="https://rocketseat.com.br/explorer" target="_blank">Conheça o Explorer</a></li>
+            </ul>
+        </section>
+    </main>
+    <section id="social">
+        <a href="https://github.com/arturtinoco" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
+        <a href="https://instagram.com/guztoso" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+        <a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+        <a href="https://soundcloud.com/arturguz" target="_blank"><ion-icon name="logo-soundcloud"></ion-icon></a>
+    </section>
+    <footer>
+        <p>Feito por <a href="https://github.com/arturtinoco" target="_blank">Artur Tinoco</a></p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
